@@ -19,7 +19,9 @@ First run the carla server  `CarlaUE4.sh ` from the save directory
 
 Then run `
 python Main.py
-`
-.To test the results run `
+`. To test the results run `
 python Test.py
 `
+Note that to add more vehicle into simulation run  `
+py -3.7 spawn_npc.py -n #
+` which # is the number of surrounding vehicle
