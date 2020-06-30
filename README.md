@@ -25,3 +25,8 @@ python Test.py
 Note that to add more vehicle into simulation run  `
 py -3.7 spawn_npc.py -n #
 ` which # is the number of surrounding vehicle
+
+## References
+[Carla-RL](https://github.com/Sentdex/Carla-RL)
+
+[CARLA](https://carla.readthedocs.io/en/latest/start_quickstart/)
