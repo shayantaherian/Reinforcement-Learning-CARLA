@@ -10,9 +10,16 @@ git clone https://github.com/shayantaherian/Reinforcement-Learning-CARLA/.git
 Install the requirement `
 requirement.txt
 `
+#### CARLA Installation
+Download Carla you can just download the compiled version from [here](https://carla.org/). Note that it is reuiqred to download the stable version of the simulator
 
-Run `
+## Taining
+
+First run the carla server  `CarlaUE4.sh ` from the save directory
+
+Then run `
 python Main.py
 `
-#### CARLA Installation
-Download the Carla you can just download the compiled version from 
+.To test the results run `
+python Test.py
+`
