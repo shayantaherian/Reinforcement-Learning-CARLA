@@ -12,5 +12,7 @@ requirement.txt
 `
 
 Run `
-python main.py
+python Main.py
 `
+#### CARLA Installation
+Download the Carla you can just download the compiled version from 
