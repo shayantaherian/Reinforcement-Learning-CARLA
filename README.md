@@ -6,3 +6,11 @@ In this repository Deep Q-Learning is used for self-driving vehicle in CARLA env
 Clone the repository `
 git clone https://github.com/shayantaherian/Reinforcement-Learning-CARLA/.git
 `
+
+Install the requirement `
+requirement.txt
+`
+
+Run `
+python main.py
+`
