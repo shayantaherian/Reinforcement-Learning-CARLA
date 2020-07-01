@@ -6,21 +6,6 @@ import time
 import numpy as np
 import cv2
 import math
-import matplotlib.pyplot as plt
-from collections import deque
-from keras.applications.xception import Xception
-from keras.layers import Dense, GlobalAveragePooling2D
-from keras.models import Sequential, Model
-from keras.layers import Dense, GlobalAveragePooling2D, Input, Concatenate, Conv2D, AveragePooling2D, Activation, Flatten
-from keras.optimizers import Adam
-from keras.models import Model
-from keras.callbacks import TensorBoard
-import tensorflow as tf
-import keras.backend.tensorflow_backend as backend
-from threading import Thread
-
-
-from tqdm import tqdm
 
 try:
     sys.path.append(glob.glob('../carla/dist/carla-*%d.%d-%s.egg' % (
